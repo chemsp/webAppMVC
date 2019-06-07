@@ -10,6 +10,7 @@ namespace WebAppMVC.Controllers
     {
         public ActionResult Index()
         {
+            // add some comment
             Customer c = new Customer();
             return View();
         }
